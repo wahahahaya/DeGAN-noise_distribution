@@ -22,11 +22,16 @@ ISSN 1568-4946,
   - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=10\;r=10%,30%\\ \sigma=40\;r=10%,30%\\ " style="border:none;">
   - AWGW+SPIN+RVIN
   - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=40\;s=5%\;r=5%\\ \sigma=30\;s=10%\;r=10%\\ \sigma=20\;s=15%\;r=15%\\ \sigma=10\;s=20%\;r=20%\\ " style="border:none;">
+  
 - Dataset in this paper
   - Joseph Chet Redmon, Pascal VOC Dataset Mirror (VOC2007).
   > https://pjreddie.com/projects/pascal-voc-dataset-mirror/
   - K. Zhang, Datasets, 2016.
   > https://drive.google.com/drive/u/0/folders/0B-_yeZDtQSnobXIzeHV5SjY5NzA
+  
+- Our dataset
+  - https://drive.google.com/file/d/1xfFTD_gd_u-LqqYI3qkblhZGrSBnKCVV/view
+  - https://drive.google.com/file/d/1OUqzojlkCKBVhheZjd3KslY-d9ZEY4fg/view
 
 ## Architecture
 ![image](https://ars.els-cdn.com/content/image/1-s2.0-S1568494620304178-gr2.jpg)
