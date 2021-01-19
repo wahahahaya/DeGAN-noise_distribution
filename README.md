@@ -53,7 +53,7 @@ PSNR = 69.36
 
 SSIM = 0.746
 
-![image](https://github.com/wahahahaya/DeGAN-noise_distribuyion/blob/main/48,PSNE=69.3609,SSIM=0.7463.png?raw=true)
+![image](https://github.com/wahahahaya/DeGAN-noise_distribuyion/blob/main/result/48,PSNE=69.3609,SSIM=0.7463.png?raw=true)
 
 ## Proeblem
 > noise distribution only for case-by-case
