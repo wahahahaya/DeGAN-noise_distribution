@@ -11,3 +11,6 @@ ISSN 1568-4946,
 
 ## Architecture
 ![image](https://ars.els-cdn.com/content/image/1-s2.0-S1568494620304178-gr2.jpg)
+
+## Proeblem
+> noise distribution only for case-by-case
