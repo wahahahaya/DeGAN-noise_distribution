@@ -45,7 +45,7 @@ ISSN 1568-4946,
 - typing-extensions==3.7.4.3
 
 
-``` pip install -r requirements.txt ```
+`` pip install -r requirements.txt ``
 
 ## Proeblem
 > noise distribution only for case-by-case
