@@ -49,7 +49,7 @@ ISSN 1568-4946,
 pip install -r requirements.txt 
 ```
 ## Our result
-![image](https://ars.els-cdn.com/content/image/1-s2.0-S1568494620304178-gr2.jpg)
+![image](https://github.com/wahahahaya/DeGAN-noise_distribuyion/blob/main/48,PSNE=69.3609,SSIM=0.7463.png?raw=true)
 
 ## Proeblem
 > noise distribution only for case-by-case
