@@ -17,7 +17,7 @@ ISSN 1568-4946,
   
 - Training Data
   - AWGW+SPIN 
-  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=20\quad s=20%,40%\\ \sigma=50\quad s=20%,40%\\ " style="border:none;">
+  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=20\quads=20%,40%\\ \sigma=50\quad s=20%,40%\\ " style="border:none;">
   - AWGW+RVIN
   - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=10\quad r=10%,30%\\ \sigma=40\quad r=10%,30%\\ " style="border:none;">
   - AWGW+SPIN+RVIN
