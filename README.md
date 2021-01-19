@@ -29,7 +29,7 @@ ISSN 1568-4946,
   - K. Zhang, Datasets, 2016.
   > https://drive.google.com/drive/u/0/folders/0B-_yeZDtQSnobXIzeHV5SjY5NzA
   
-- Our dataset
+- Our noise dataset
   - https://drive.google.com/file/d/1xfFTD_gd_u-LqqYI3qkblhZGrSBnKCVV/view
   - https://drive.google.com/file/d/1OUqzojlkCKBVhheZjd3KslY-d9ZEY4fg/view
 
