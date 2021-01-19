@@ -16,7 +16,8 @@ ISSN 1568-4946,
   - random-valued noise(RVIN)
   
 - Training Data
-  - AWGW+SPIN <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=10\;r=10%,30%\\ \sigma=40\;r=10%,30% " style="border:none;">
+  - AWGW+SPIN 
+  <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=10\;r=10%,30%\\ \sigma=40\;r=10%,30% " style="border:none;">
   - AWGW+RVIN
   - AWGW+SPIN+RVIN
   
