@@ -49,6 +49,10 @@ ISSN 1568-4946,
 pip install -r requirements.txt 
 ```
 ## Our result
+PSNR = 69.36
+
+SSIM = 0.746
+
 ![image](https://github.com/wahahahaya/DeGAN-noise_distribuyion/blob/main/48,PSNE=69.3609,SSIM=0.7463.png?raw=true)
 
 ## Proeblem
