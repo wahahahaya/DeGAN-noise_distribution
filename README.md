@@ -36,5 +36,14 @@ ISSN 1568-4946,
 ## Architecture
 ![image](https://ars.els-cdn.com/content/image/1-s2.0-S1568494620304178-gr2.jpg)
 
+## Requirement
+numpy==1.19.2
+Pillow==8.1.0
+torch==1.7.1+cu110
+torchaudio==0.7.2
+torchvision==0.8.2+cu110
+typing-extensions==3.7.4.3
+``` pip install -r requirements.txt ```
+
 ## Proeblem
 > noise distribution only for case-by-case
