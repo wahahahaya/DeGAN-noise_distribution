@@ -27,7 +27,6 @@ ISSN 1568-4946,
   > https://pjreddie.com/projects/pascal-voc-dataset-mirror/
   - K. Zhang, Datasets, 2016.
   > https://drive.google.com/drive/u/0/folders/0B-_yeZDtQSnobXIzeHV5SjY5NzA
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma" style="border:none;">
 
 ## Architecture
 ![image](https://ars.els-cdn.com/content/image/1-s2.0-S1568494620304178-gr2.jpg)
