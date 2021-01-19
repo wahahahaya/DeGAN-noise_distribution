@@ -17,11 +17,11 @@ ISSN 1568-4946,
   
 - Training Data
   - AWGW+SPIN 
-  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=20 \quad s=20%,40%\\ \sigma=50\quad s=20%,40%\\ " style="border:none;">
+  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=20\;s=20%,40%\\ \sigma=50\;s=20%,40%\\ " style="border:none;">
   - AWGW+RVIN
-  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=10 \quad r=10%,30%\\ \sigma=40\quad r=10%,30%\\ " style="border:none;">
+  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=10\;r=10%,30%\\ \sigma=40\;r=10%,30%\\ " style="border:none;">
   - AWGW+SPIN+RVIN
-  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=40 \quad s=5%\ r=5%\\ \sigma=30\quad s=10%\quad r=10%\\ \sigma=20\quad s=15%\quad r=15%\\ \sigma=10\quad s=20%\quad r=20%\\ " style="border:none;">
+  - > <img src="http://chart.googleapis.com/chart?cht=tx&chl= \sigma=40\;s=5%\;r=5%\\ \sigma=30\;s=10%\;r=10%\\ \sigma=20\;s=15%\;r=15%\\ \sigma=10\;s=20%\;r=20%\\ " style="border:none;">
   
 - Dataset in this paper
   - Joseph Chet Redmon, Pascal VOC Dataset Mirror (VOC2007).
