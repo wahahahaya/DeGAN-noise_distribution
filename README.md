@@ -1,4 +1,4 @@
-# DeGAN_noise_distribuyion
+# DeGAN_noise_distribuyion (practice)
 
 ## Reference
 Qiongshuai Lyu, Min Guo, Zhao Pei,
@@ -34,6 +34,9 @@ ISSN 1568-4946,
   - https://drive.google.com/file/d/1OUqzojlkCKBVhheZjd3KslY-d9ZEY4fg/view
 
 ## Architecture
+I change the unet, because the paper's information can not match the paper's picture, so i use the most common unet to my generator.
+And I also change the loss function, because I thought that the ssim loss is more important than mse, so I give some different weight to different loss.
+
 ![image](https://ars.els-cdn.com/content/image/1-s2.0-S1568494620304178-gr2.jpg)
 
 ## Requirement
