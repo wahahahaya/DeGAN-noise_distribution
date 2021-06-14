@@ -82,7 +82,7 @@ def train():
     def sample_images(batches_done):
         imgs = next(iter(train_data))
         gen.eval()
-        
+
         noise = Variable(imgs["noise"].type(Tensor))
         dis_noise = gen(noise)
         ground = Variable(imgs["groundtruth"].type(Tensor))
@@ -118,7 +118,7 @@ def train():
 
             #
             # Train Generator
-            # 
+            #
 
             opt_g.zero_grad()
 
@@ -149,13 +149,13 @@ def train():
             real_loss = adv_loss(dis(groundtruth), vaild)
             fake_loss = adv_loss(dis(dis_noise.detach()), fake)
             d_loss = real_loss + fake_loss
-            
+
             d_loss.backward()
             opt_d.step()
 
             #
             # Log progress
-            # 
+            #
             batches_done = (epoch) * len(train_data) + i
             print("Epoch: {}/{}, Batch: {}/{}, D loss: {:.4f}, G loss: {:.4f}, img loss: {:.4f}, feature loss: {:.4f}, ssim: {:.4f}, pix: {:.4f}, total G: {:.4f}".format(epoch,last_epoch+epochs-1,i,len(train_data),d_loss.item(),g_loss.item(),img_loss.item(),fea.item(),ssim.item(),pix.item(),total_loss.item()))
 
@@ -170,7 +170,7 @@ def train():
         torch.save(dis.state_dict(),"saved_model/Dis_%d.pth" % (epoch))
         torch.save(opt_g.state_dict(),"saved_model/opt_g_%d.pth" % (epoch))
         torch.save(opt_d.state_dict(), "saved_model/opt_d_%d.pth" % (epoch))
-    
+
     with open("loss.txt", "w") as f:
         for i in gg:
             f.write("%f " % i)
@@ -178,5 +178,3 @@ def train():
 
 if __name__ == "__main__":
     train()
-   
-    

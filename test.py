@@ -39,7 +39,7 @@ def test():
                 transforms_=data_process_steps,
                 mode="test",
             ),
-            batch_size=4,
+            batch_size=5,
             #shuffle=True,
             num_workers=4,
         )

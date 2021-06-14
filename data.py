@@ -10,8 +10,8 @@ class img_data(Dataset):
     def __init__(self, root, transforms_=None, mode="train"):
         self.transform = transforms.Compose(transforms_)
 
-        self.files_A = sorted(glob.glob(os.path.join(root,"%s/ground" % mode)+"/*.*")) 
-        self.files_B = sorted(glob.glob(os.path.join(root,"%s/noise20&20" % mode)+"/*.*")) 
+        self.files_A = sorted(glob.glob(os.path.join(root,"%s/ground_random" % mode)+"/*.*"))
+        self.files_B = sorted(glob.glob(os.path.join(root,"%s/noise_random" % mode)+"/*.*"))
 
     def __getitem__(self, index):
         image_A = Image.open(self.files_A[index%len(self.files_A)])

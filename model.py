@@ -202,7 +202,7 @@ class Dis(torch.nn.Module):
             ),
             torch.nn.Sigmoid()
         )
-    
+
     def forward(self, x):
         return self.dis(x)
 
@@ -218,14 +218,14 @@ class VGG19_fea(torch.nn.Module):
         self.relu = torch.nn.ReLU()
         model = models.vgg19_bn(pretrained=True)
         self.vgg19_fea = model.features
-        
+
     def forward(self, x):
         x = self.conv1to3(x)
         x = self.relu(x)
         x = self.vgg19_fea(x)
 
         return(x)
-        
+
 if __name__ == "__main__":
    device = "cuda" if torch.cuda.is_available() else "cpu"
    x = torch.randn(1 ,1, 256, 256).to(device)
