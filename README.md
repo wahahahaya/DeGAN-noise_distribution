@@ -1,4 +1,4 @@
-# DeGAN_noise_distribuyion (practice)
+# DeGAN_noise_distribution (practice)
 
 ## Reference
 Qiongshuai Lyu, Min Guo, Zhao Pei,
